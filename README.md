@@ -1,0 +1,1 @@
+python -m grpc_tools.protoc -I./protos --python_out=./from_protos --pyi_out=./from_protos --grpc_python_out=./from_protos ./protos/odds_crud.proto
